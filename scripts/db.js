@@ -1,6 +1,7 @@
 let books = [
     {
         "name": "Die Geheimnisse des Ozeans",
+        "image": "",
         "author": "Clara Meer",
         "likes": 1250,
         "liked": true,
@@ -32,6 +33,7 @@ let books = [
     },
     {
         "name": "Der vergessene Pfad",
+        "image": "",
         "author": "Maximilian Schwarz",
         "likes": 980,
         "liked": false,
@@ -42,6 +44,7 @@ let books = [
     },
     {
         "name": "Die Farben des Himmels",
+        "image": "",
         "author": "Laura Blau",
         "likes": 1520,
         "liked": true,
@@ -73,6 +76,7 @@ let books = [
     },
     {
         "name": "Das Rätsel der Zeit",
+        "image": "",
         "author": "Alexander Weiss",
         "likes": 750,
         "liked": false,
@@ -92,6 +96,7 @@ let books = [
     },
     {
         "name": "Der letzte Wächter",
+        "image": "",
         "author": "Sabine Grün",
         "likes": 1300,
         "liked": true,
@@ -102,6 +107,7 @@ let books = [
     },
     {
         "name": "Im Schatten des Mondes",
+        "image": "",
         "author": "Philipp Silber",
         "likes": 890,
         "liked": false,
@@ -121,6 +127,7 @@ let books = [
     },
     {
         "name": "Jenseits der Sterne",
+        "image": "",
         "author": "Oliver Schwarz",
         "likes": 1450,
         "liked": true,
@@ -136,6 +143,7 @@ let books = [
     },
     {
         "name": "Das verborgene Königreich",
+        "image": "",
         "author": "Elena Gold",
         "likes": 920,
         "liked": false,
@@ -151,6 +159,7 @@ let books = [
     },
     {
         "name": "Liebe in Zeiten des Krieges",
+        "image": "",
         "author": "Emilia Rot",
         "likes": 1800,
         "liked": true,
@@ -172,4 +181,5 @@ let books = [
             }
         ]
     }
-  ]
+]
+
