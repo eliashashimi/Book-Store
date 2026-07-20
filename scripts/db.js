@@ -128,3 +128,4 @@ let books = [
     
 ]
 
+const contentRef = document.getElementById('main-content');

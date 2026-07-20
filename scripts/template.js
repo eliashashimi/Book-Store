@@ -34,3 +34,12 @@ function renderBooksTemplate(i){
         </article>
     `;
 }
+
+function commentsTemplate(i, j){
+    return /*html*/`
+        <div class="comments">
+            <p class="userNameComments">${books[i].comments[j].name}</p>
+            <p class="bookComments">${books[i].comments[j].comment}</p>
+        </div>
+    `;
+}
