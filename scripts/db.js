@@ -1,11 +1,11 @@
 let books = [
     {
         "name": "Die Geheimnisse des Ozeans",
-        "image": "",
+        "image": "./assets/images/Bild_1.png",
         "author": "Clara Meer",
         "likes": 1250,
         "liked": true,
-        "price": 19.99,
+        "price": "19.99 €",
         "publishedYear": 2018,
         "genre": "Fantasy",
         "comments": [
@@ -33,22 +33,22 @@ let books = [
     },
     {
         "name": "Der vergessene Pfad",
-        "image": "",
+        "image": "./assets/images/Bild_2.png",
         "author": "Maximilian Schwarz",
         "likes": 980,
         "liked": false,
-        "price": 14.50,
+        "price": "14.50 €",
         "publishedYear": 2021,
         "genre": "Fantasy",
         "comments": []
     },
     {
         "name": "Die Farben des Himmels",
-        "image": "",
+        "image": "./assets/images/Bild_3.png",
         "author": "Laura Blau",
         "likes": 1520,
         "liked": true,
-        "price": 22.95,
+        "price": "22.95 €",
         "publishedYear": 2019,
         "genre": "Romantik",
         "comments": [
@@ -76,11 +76,11 @@ let books = [
     },
     {
         "name": "Das Rätsel der Zeit",
-        "image": "",
+        "image": "./assets/images/Bild_4.png",
         "author": "Alexander Weiss",
         "likes": 750,
         "liked": false,
-        "price": 18.00,
+        "price": "18.00 €",
         "publishedYear": 2020,
         "genre": "Science-Fiction",
         "comments": [
@@ -96,22 +96,22 @@ let books = [
     },
     {
         "name": "Der letzte Wächter",
-        "image": "",
+        "image": "./assets/images/Bild_5.png",
         "author": "Sabine Grün",
         "likes": 1300,
         "liked": true,
-        "price": 16.75,
+        "price": "16.75 €",
         "publishedYear": 2017,
         "genre": "Fantasy",
         "comments": []
     },
     {
         "name": "Im Schatten des Mondes",
-        "image": "",
+        "image": "./assets/images/Bild_6.png",
         "author": "Philipp Silber",
         "likes": 890,
         "liked": false,
-        "price": 12.30,
+        "price": "12.30 €",
         "publishedYear": 2022,
         "genre": "Science-Fiction",
         "comments": [
@@ -124,62 +124,7 @@ let books = [
                 "comment": "Ein packender Science-Fiction-Roman, der mich zum Nachdenken gebracht hat."
             }
         ]
-    },
-    {
-        "name": "Jenseits der Sterne",
-        "image": "",
-        "author": "Oliver Schwarz",
-        "likes": 1450,
-        "liked": true,
-        "price": 21.00,
-        "publishedYear": 2015,
-        "genre": "Science-Fiction",
-        "comments": [
-            {
-                "name": "Leser123",
-                "comment": "Ein fesselndes Abenteuer, das mich von Anfang bis Ende mitgerissen hat."
-            }
-        ]
-    },
-    {
-        "name": "Das verborgene Königreich",
-        "image": "",
-        "author": "Elena Gold",
-        "likes": 920,
-        "liked": false,
-        "price": 17.50,
-        "publishedYear": 2020,
-        "genre": "Fantasy",
-        "comments": [
-            {
-                "name": "Bookworm92",
-                "comment": "Ein faszinierendes Buch, das mich von der ersten Seite an gefesselt hat."
-            }
-        ]
-    },
-    {
-        "name": "Liebe in Zeiten des Krieges",
-        "image": "",
-        "author": "Emilia Rot",
-        "likes": 1800,
-        "liked": true,
-        "price": 19.99,
-        "publishedYear": 2016,
-        "genre": "Romantik",
-        "comments": [
-            {
-                "name": "Bibliophile23",
-                "comment": "Die Fantasiewelt war so lebendig, ich konnte das Buch kaum aus der Hand legen."
-            },
-            {
-                "name": "StorySeeker",
-                "comment": "Eine unglaublich berührende Liebesgeschichte, die mich tief bewegt hat."
-            },
-            {
-                "name": "SciFiExplorer",
-                "comment": "Spannende Zukunftsvisionen und interessante Charaktere machten diesen Roman einzigartig."
-            }
-        ]
     }
+    
 ]
 
