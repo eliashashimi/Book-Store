@@ -39,8 +39,9 @@ function likeBook(heartRef, i){
     saveToLocalStorage();
 }
 
+
 function getComments(i) {
-    const inputRef = document.getElementById(`input-comment${i}`);
+    let inputRef = document.getElementById(`input-comment${i}`);
     let userNameComments = "";
     let newComment = {"name": "User","comment": inputRef.value}
 
@@ -51,5 +52,12 @@ function getComments(i) {
     inputRef.value = "";
     saveToLocalStorage();
     renderBooks();
+}
+
+function addEnterComments(event, i) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            getComments(i)
+        }
 }
 
