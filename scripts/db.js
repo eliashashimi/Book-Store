@@ -1,7 +1,7 @@
 let books = [
     {
         "name": "Die Geheimnisse des Ozeans",
-        "image": "./assets/images/Bild_1.png",
+        "image": "./assets/images/Bild_1.jpg",
         "author": "Clara Meer",
         "likes": 1250,
         "liked": false,
@@ -33,7 +33,7 @@ let books = [
     },
     {
         "name": "Der vergessene Pfad",
-        "image": "./assets/images/Bild_2.png",
+        "image": "./assets/images/Bild_2.jpg",
         "author": "Maximilian Schwarz",
         "likes": 980,
         "liked": false,
@@ -44,7 +44,7 @@ let books = [
     },
     {
         "name": "Die Farben des Himmels",
-        "image": "./assets/images/Bild_3.png",
+        "image": "./assets/images/Bild_3.jpg",
         "author": "Laura Blau",
         "likes": 1520,
         "liked": true,
