@@ -1,9 +1,17 @@
-function renderBooks(i){
+
+function init() {
+    getFromLocalStorage();
+    renderBooks();
+}
+
+function renderBooks(){
     contentRef.innerHTML = "";
 
     for (let i = 0; i < books.length; i++) {
         contentRef.innerHTML += renderBooksTemplate(i);
-    
+        let heartRef = document.getElementById(`heart-like${i}`)
+
+        if (books[i].liked == true) heartRef.classList.add("active");
         const commentRef = document.getElementById(`comments${i}`);
         commentRef.innerHTML = "";
 
@@ -11,6 +19,7 @@ function renderBooks(i){
             commentRef.innerHTML += commentsTemplate(i, j);
             }
     }
+    saveToLocalStorage();
 }
 
 function likeBook(heartRef, i){
@@ -20,28 +29,27 @@ function likeBook(heartRef, i){
         books[i].liked = true
         books[i].likes++;
         heartRef.classList.add("active");
-        
     } else if(books[i].liked == true) {
         books[i].liked = false;
         heartRef.classList.remove("active");
         books[i].likes--;
     }
+
     likes.innerText = books[i].likes;
+    saveToLocalStorage();
 }
 
 function getComments(i) {
-    console.log("test");
     const inputRef = document.getElementById(`input-comment${i}`);
     let userNameComments = "";
-    let newComment = {
-                        "name": "User",
-                        "comment": inputRef.value
-                    }
+    let newComment = {"name": "User","comment": inputRef.value}
+
     if (inputRef.value != "") {
         books[i].comments.push(newComment);
     }
-    
-    inputRef.value = "";
 
-    renderBooks(i);
+    inputRef.value = "";
+    saveToLocalStorage();
+    renderBooks();
 }
+

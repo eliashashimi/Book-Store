@@ -1,11 +1,21 @@
 body {
     width: 100%;
     height: 100%;
+    background-image: linear-gradient(to bottom right, blue, orange);
 }
 
 header {
     display: flex;
     justify-content: center;
+}
+
+h1 {
+    /* color: white; */
+    background: linear-gradient(white, gray);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
 }
 
 #main-content {
@@ -15,17 +25,21 @@ header {
 }
 
 .book {
-    background-color: lightblue;
+    background-image: linear-gradient(to bottom right, gray, white);
     width: 320px;
     height: 430px;
     margin: 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    border-radius: 5%;
 }
 
 h2 {
+    font-size: 20px;
+    height: 30px;
     padding: 0px 0px 16px;
+    text-align: center;
 }
 
 .img {
@@ -34,7 +48,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 8px;
+    padding: 8px 0px;
     img {
     width: 80px;
     height: 120px;
@@ -47,6 +61,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .heart-like {
@@ -62,13 +78,32 @@ h2 {
 }
 
 .likes {
-    width: 50px;
+    width: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.author {
+    font-size: 14px;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: flex-start;
+    table th {
+        text-align: start;
+    }
+    table td {
+        font-weight: 400;
+        padding-left: 20px;
+    }
+}
+
+h3 {
+    font-size: 16px;
+}
+
 .comments {
+    font-size: 14px;
     height: 100px;
     width: 100%;
     display: flex;
@@ -76,6 +111,11 @@ h2 {
     overflow-y: auto;
     align-items: flex-start;
     padding-top: 5px;
+
+    --sbtrack-color: rgb(255, 255, 255, 0);
+    --sb-thumb-color: rgb(0, 0, 0);
+    --sb-size: 6px;
+
     .userNameComments {
         width: 100px;
     }
@@ -85,21 +125,46 @@ h2 {
     }
 }
 
+.comments::-webkit-scrollbar {
+    width: var(--sb-size);
+}
 
+.comments::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 8px;
+}
 
+.comments::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 8px;
+}
+
+@supports not selector(::::-webkit-scrollbar) {
+    .comments {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+}
 
 .inpField {
-    width: 260px;
+    height: auto;
+    width: 300px;
     display: flex;
-    gap: 20px;
+    gap: 5px;
 
     bottom: 0;
-    margin: 8px 0px
+    margin: 0px 0px 15px;
 }
 
 .inpField input{
     height: 20px;
-    width: 250px;
+    width: 260px;
 
     display: flex;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+}   svg {
+    width: 20px;
 }
