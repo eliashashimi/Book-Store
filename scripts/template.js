@@ -1,3 +1,5 @@
+
+
 function renderBooksTemplate(i){
     return /*html*/`
         <article class="book" id="book${i}">
