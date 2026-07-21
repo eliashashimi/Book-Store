@@ -16,23 +16,28 @@ header {
 
 .book {
     background-color: lightblue;
-    width: 300px;
-    height: 600px;
+    width: 320px;
+    height: 430px;
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
+h2 {
+    padding: 0px 0px 16px;
+}
+
 .img {
     width: 100%;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 0px 8px;
     img {
     width: 80px;
-    height: auto;
+    height: 120px;
     }
 }
 
@@ -42,4 +47,59 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.heart-like {
+    width: 16px; 
+    height: 16px; 
+    fill: transparent; 
+    stroke: black; 
+}
+
+.active {
+    fill: red;
+    stroke: black;
+}
+
+.likes {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comments {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    align-items: flex-start;
+    padding-top: 5px;
+    .userNameComments {
+        width: 100px;
+    }
+    .bookComments {
+        height: auto;
+        width: 60%;
+    }
+}
+
+
+
+
+.inpField {
+    width: 260px;
+    display: flex;
+    gap: 20px;
+
+    bottom: 0;
+    margin: 8px 0px
+}
+
+.inpField input{
+    height: 20px;
+    width: 250px;
+
+    display: flex;
 }

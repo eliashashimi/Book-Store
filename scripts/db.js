@@ -4,7 +4,7 @@ let books = [
         "image": "./assets/images/Bild_1.png",
         "author": "Clara Meer",
         "likes": 1250,
-        "liked": true,
+        "liked": false,
         "price": "19.99 €",
         "publishedYear": 2018,
         "genre": "Fantasy",
@@ -14,19 +14,19 @@ let books = [
                 "comment": "Ein faszinierendes Abenteuerbuch, das mich von der ersten Seite an gefesselt hat."
             },
             {
-                "name": "Bookworm84",
+                "name": "Bookworm",
                 "comment": "Eine romantische Geschichte, die mein Herz berührt und mich zum Nachdenken gebracht hat."
             },
             {
-                "name": "FantasyFanatic",
+                "name": "FantaFan",
                 "comment": "Eine spannende Fantasiewelt, die ich nur schwer aus der Hand legen konnte."
             },
             {
-                "name": "SciFiGuru",
+                "name": "SciFiGur",
                 "comment": "Ein cleverer Science-Fiction-Roman mit interessanten Zeitreise-Konzepten und Charakteren."
             },
             {
-                "name": "NovelLover",
+                "name": "NovelLove",
                 "comment": "Ein Buch, das voller magischer Überraschungen steckt und mich begeistert hat."
             }
         ]
@@ -57,19 +57,19 @@ let books = [
                 "comment": "Die Handlung war fesselnd und die Charaktere unglaublich lebendig dargestellt."
             },
             {
-                "name": "BookLover21",
+                "name": "BookLove",
                 "comment": "Ein romantisches Meisterwerk, das mich tief berührt und bewegt hat."
             },
             {
-                "name": "FantasyNerd",
+                "name": "FantasyN",
                 "comment": "Fantastische Welten und epische Abenteuer - genau mein Geschmack!"
             },
             {
-                "name": "SciFiEnthusiast",
+                "name": "SciFiEnte",
                 "comment": "Die Zeitreise-Elemente waren genial und haben die Story spannend gemacht."
             },
             {
-                "name": "ReadingAddict",
+                "name": "ReadingAdd",
                 "comment": "Ein unvergessliches Buch, das mich auf eine magische Reise mitgenommen hat."
             }
         ]
@@ -85,7 +85,7 @@ let books = [
         "genre": "Science-Fiction",
         "comments": [
             {
-                "name": "BuchKenner",
+                "name": "BuchKen",
                 "comment": "Ein spannendes Abenteuer, das mich von Anfang an mitgerissen hat."
             },
             {
@@ -116,11 +116,11 @@ let books = [
         "genre": "Science-Fiction",
         "comments": [
             {
-                "name": "BücherLiebhaber",
+                "name": "BücherLi",
                 "comment": "Eine magische Reise durch eine faszinierende Fantasiewelt, absolut fesselnd."
             },
             {
-                "name": "Leseratte",
+                "name": "Leserat",
                 "comment": "Ein packender Science-Fiction-Roman, der mich zum Nachdenken gebracht hat."
             }
         ]
