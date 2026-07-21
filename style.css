@@ -183,3 +183,24 @@ h3 {
 }   svg {
     width: 20px;
 }
+
+.footer {
+    width: 300px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    p {
+        background: linear-gradient(white, gray);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    a {
+        background: linear-gradient(white, gray);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+    }
+}
